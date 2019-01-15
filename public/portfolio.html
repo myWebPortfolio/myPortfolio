@@ -94,19 +94,18 @@
 
 /* The navigation menu links */
 .sidenav div {
-  padding: 52px 20px 52px 20px;
+  padding: 57px 20px 57px 20px;
   text-decoration: none;
   font-size: 25px;
   display: block;
-  background-color: red;
   text-align: center;
-   font-family: Lato;
-            font-size: 25px;
-            font-weight: 400;
-            font-style: normal;
-            text-decoration: none;
-            text-transform: none;
-            color: white;
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  color: white;
 }
 
 .sidenav a{
@@ -129,6 +128,47 @@
 
 .sidenav div#contactDiv{
   background-color:#C38D9E;
+}
+
+.allAppContent div:hover{
+  opacity: 0.7;
+
+
+}
+
+.BeautiApp{
+  background-color: #ffd1dc; text-align: center; display: flex;
+    justify-content: center;
+    align-items: center; color: white;
+}
+
+.bookItApp{
+  background-color: #2980B9; text-align: center; display: flex;
+    justify-content: center;
+    align-items: center; color: white;
+}
+
+.sparkApp{
+  background-color: #A569BD; text-align: center; display: flex;
+    justify-content: center;
+    align-items: center; color: white;
+}
+
+.allAppContent{
+  margin-top: 200px; margin-left: 100px;
+  position: absolute;
+  
+}
+
+.allAppContent div{
+  margin-left: 20px;
+  width: 200px; height: 200px;
+   font-family: Lato;
+            font-size: 30px;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
 }
 
 .style_prevu_kit
@@ -231,47 +271,33 @@
 
     </div>
 
-        <div style="margin-left: 280px; float: left; display: block; margin-top: 30px;border-radius: 50%;">
-        <img src="Default 2.png" height="50" width="50" ></div> 
+    <div class="allAppContent">
+        <div style="float: left; display: inline-block;"><a href="./beautiApp.html" style="text-decoration: none;">
+          <div class="BeautiApp">
+            Beauti
+          </div>
+        </a>
+      </div>
 
-    <div style="float: left;">
-      <p style="margin-top: 200px; margin-left: -200px;"> Hi, I'm Jigyasaa <br> 
-    and I'm  
-      <b class="element" style="color: #E8A87C;"></b><br> 
-      
-      <!--<br>I'm interested in mobile app development(iOS and Android) <br> and web development!--> </p></div> 
+      <div style="float: left; display: inline-block;"><a href="./bookItApp.html" style="text-decoration: none;">
+          <div class="bookItApp">
+            BookIt
+          </div>
+        </a>
+      </div>
+
+       <div style="float: left; display: inline-block;"><a href="./sparcApp.html" style="text-decoration: none;">
+          <div class="sparkApp">
+            SPARC
+          </div>
+        </a>
+      </div>
+
+
+</div>
 
         
-    <div >
-      <div><img src="./IMG_0590.jpg" width="400" height="520" style="border-radius: 10px; display: block; position: absolute; margin-left: 610px; 
-      /*top: 50%; left: 50%; margin-left: -110px;
-      margin-top: -175px; width: 15%;*/" ></div>
-
-     </div>
-
-     <br>
-     <div style="margin-top: 280px; margin-left: -200px;">
-       <p style="text-align: center;">Free spirited San Diegan, who has three joys in life:<br> family, food, and programming! Wait..sorry four, <br>can't forget about the beaches lol! I am passionate <br> about web and mobile app development and am <br>seeking positions in either of the fields. </p>
-     </div> 
-
-     
-
-     
-
-     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-
-     <script type="text/javascript">
-     /* var typed = new Typed('.typing', {
-        strings: ["First Sentence.", "Second Sentence."], typeSpeed: 30 
-      });*/
-      var options = {
-      strings: ["<i> a student.</i>", " <i>a programmer.</i>", " <i>an aspiring mobile developer.</i>", "<i>an artist.</i>", "<i>a future entrepreneur.</i>"],
-      typeSpeed: 90
-    }
-
-    var typed = new Typed(".element", options);
-     </script>
-
+    
    </div> <!-- end of class main -->
 
      
